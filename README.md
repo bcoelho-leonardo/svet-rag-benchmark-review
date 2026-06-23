@@ -4,9 +4,17 @@ This repository contains the reviewer-access version of the code, data, prompts,
 
 **Retrieval augmentation improves reliability of large language models for specialist instrumentation: a three-stage evaluation using the scanning vibrating electrode technique.**
 
+## Archival DOI
+
+A Zenodo record has been reserved for the frozen archival release of this work:
+
+- **DOI:** [10.5281/zenodo.20820224](https://doi.org/10.5281/zenodo.20820224)
+
+The DOI is reserved during peer review and will be activated upon acceptance, when a snapshot of this repository is deposited at Zenodo.
+
 ## Repository status
 
-This repository is provided for peer review during the *Digital Discovery* submission process. It is not the final archival release. After acceptance, a cleaned and frozen public release will be deposited on Zenodo with a permanent DOI.
+This repository is provided for peer review during the *Digital Discovery* submission process. It is not the final archival release. After acceptance, a cleaned and frozen public release will be deposited on Zenodo under the DOI above.
 
 ## Contents
 

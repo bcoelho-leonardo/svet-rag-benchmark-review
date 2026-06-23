@@ -8,9 +8,9 @@ This repository contains the reviewer-access version of the code, data, prompts,
 
 A Zenodo record has been reserved for the frozen archival release of this work:
 
-- **DOI:** [10.5281/zenodo.20820224](https://doi.org/10.5281/zenodo.20820224)
+- **DOI (reserved, not yet active):** `10.5281/zenodo.20820224` — will resolve to the frozen Zenodo deposit upon acceptance of the manuscript.
 
-The DOI is reserved during peer review and will be activated upon acceptance, when a snapshot of this repository is deposited at Zenodo.
+The DOI is reserved during peer review; clicking the resolver link before acceptance will not return a record.
 
 ## Repository status
 
@@ -51,3 +51,4 @@ For questions during peer review: Leonardo B. Coelho — leonardo@ialto.com.br
 ## License
 
 This peer-review version is provided for manuscript evaluation. Final licensing for the public archival release will be specified upon acceptance. See `LICENSE`.
+

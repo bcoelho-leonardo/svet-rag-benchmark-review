@@ -1,0 +1,36 @@
+﻿# Secrets and credentials
+.env
+*.env
+api_keys.*
+credentials.*
+secrets.*
+config_private.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary folders
+tmp/
+scratch/
+logs/
+*.log
+
+# Large compressed temporary files
+*.zip
+*.tar.gz
+*.rar
+
+# IDE
+.vscode/
+.idea/

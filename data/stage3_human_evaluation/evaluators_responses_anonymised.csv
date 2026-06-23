@@ -1,0 +1,156 @@
+reviewer,part,question_number,subtype,rag_plus_pos,rag_minus_pos,errors_x,errors_y,scientific_clarity,factual_correctness,confidence,submitted_at	
+SVET specialist I,1,1,C,X,Y,The main reason for the 4x is that the true signal becomes overestimated as the probe gest closer that 4x. The obreestimation is higher as the distance gest smaller. For 4x hor larger distances no error appears.,Response Y is similar to response X but using different words. ,Tie,Tie,high,2026-03-26 09:33:07.365+00	
+SVET specialist I,1,2,B,Y,X,The sensitivity depends on the electronics of the equipment and the noise in the environment and in the pwerline. The testing solution contains charge carriers (ions) and the higher the concentration and temperature the higher the Johnson (thermal) noise. This is the reason why higher resistive solution are more sensitive (less noisy).,Not incorrect. But incomplete.,Tie,Tie,high,2026-03-26 09:46:10.011+00	
+SVET specialist I,1,3,A,Y,X,There is no kinetics or surface reactions in SVET detection.,"Not a error, but a complement. SVET probes of of some equipment with large area do not need platinization.",Y,Y,high,2026-03-26 09:51:40.88+00	
+SVET specialist I,1,4,A,X,Y,,,Tie,Tie,medium,2026-03-26 09:53:49.934+00	
+SVET specialist I,1,5,C,X,Y,It is not clear if the current stop considered here comes from the operator decision to stop it or if it comes from a problem on the probe that does not allow more deposition.,"There is no charge transfer in the measuring process of SVET.	
+But part of what is written seems correct.",X,X,medium,2026-03-26 10:04:49.574+00	
+SVET specialist I,1,6,C,X,Y,The 25 um can be a problem for measurements made 100 um above the surface. But the importance of the problem is variable depending on the distance. It is better to clarify or include the probe-source distance in the question.,More vague than response X.,X,X,high,2026-03-26 10:17:54.489+00	
+SVET specialist I,1,7,D,Y,X,Not easy to judge the question and the answer.,Not easy to judge the questions and the answer.,X,X,low,2026-03-26 10:24:32.059+00	
+SVET specialist I,1,8,A,Y,X,,,Y,Y,high,2026-03-26 10:26:17.922+00	
+SVET specialist I,1,9,D,Y,X,,,Tie,Tie,low,2026-03-26 10:33:23.059+00	
+SVET specialist I,1,10,D,X,Y,,,X,X,medium,2026-03-26 10:33:52.073+00	
+SVET specialist I,1,11,A,Y,X,,,X,X,medium,2026-03-26 11:33:40.439+00	
+SVET specialist I,1,12,B,Y,X,Not clear which Pt wire is referred here.,Pt wires in the ground and earth?,Tie,Tie,low,2026-03-26 11:41:47.857+00	
+SVET specialist I,1,13,A,X,Y,,This ones includes a second effect of the conductivity: the effect on the corrosion process.,X,X,medium,2026-03-26 11:45:21.184+00	
+SVET specialist I,1,14,D,Y,X,Response Y is correct and contradicts this response.,,Y,Y,high,2026-03-26 11:47:30.98+00	
+SVET specialist I,1,15,A,Y,X,,,Y,Y,medium,2026-03-26 11:48:51.152+00	
+SVET specialist I,1,16,C,X,Y,,,X,X,high,2026-03-26 11:51:31.401+00	
+SVET specialist I,1,17,E,Y,X,,,Y,Y,medium,2026-03-26 11:52:48.057+00	
+SVET specialist I,1,18,D,X,Y,,,X,X,high,2026-03-26 11:53:21.396+00	
+SVET specialist I,1,19,B,Y,X,,,Y,Y,medium,2026-03-26 11:55:51.652+00	
+SVET specialist I,1,20,A,X,Y,,The problem here is  the magnitude. How excessive must the platinization be toc reate the described problems?,X,X,medium,2026-03-26 11:59:41.766+00	
+SVET specialist I,1,21,C,X,Y,,,Y,Y,medium,2026-03-26 12:00:50.628+00	
+PI (Admin),1,1,C,X,Y,,,Y,X,medium,2026-03-09 14:16:15.281+00	
+PI (Admin),1,2,B,Y,X,,,X,Y,medium,2026-03-09 14:18:12.017+00	
+PI (Admin),1,3,A,Y,X,,,X,Y,medium,2026-03-09 14:19:21.025+00	
+PI (Admin),1,4,A,X,Y,,,X,X,medium,2026-03-09 14:20:47.55+00	
+PI (Admin),1,5,C,X,Y,,,X,X,medium,2026-03-09 14:21:41.777+00	
+PI (Admin),1,6,C,X,Y,,,Y,X,medium,2026-03-09 14:23:07.61+00	
+PI (Admin),1,7,D,Y,X,,,X,Y,medium,2026-03-09 14:24:47.537+00	
+PI (Admin),1,8,A,Y,X,,,Y,X,high,2026-03-09 14:25:52.281+00	
+PI (Admin),1,9,D,Y,X,"Saeedikhani et al developed the approach, not Thomas",,Y,Y,high,2026-03-09 14:30:39.824+00	
+PI (Admin),1,10,D,X,Y,,"Not sure if this is accurate ""the synchronous detection of the electrode potential at two closely spaced points and subsequent subtraction of the common mode noise.""",X,X,medium,2026-03-09 14:34:15.648+00	
+PI (Admin),1,11,A,Y,X,,,X,Y,low,2026-03-09 14:36:36.944+00	
+PI (Admin),1,12,B,Y,X,rather coarse grit sizes (like 500)  are actually recommended,,X,Y,high,2026-03-09 14:39:56.457+00	
+PI (Admin),1,13,A,X,Y,,,X,X,low,2026-03-09 14:41:06.152+00	
+PI (Admin),1,14,D,Y,X,,,X,Y,low,2026-03-09 14:47:29.303+00	
+PI (Admin),1,15,A,Y,X,,,X,Y,low,2026-03-09 14:51:21.703+00	
+PI (Admin),1,16,C,X,Y,,"Electrolyte evaporation during a long SVET scan does not increase solution resistance (instead, it increases solution conductivity)",X,X,high,2026-03-09 14:52:22.343+00	
+PI (Admin),1,17,E,Y,X,,,Y,Y,medium,2026-03-09 14:53:40.728+00	
+PI (Admin),1,18,D,X,Y,,,Y,Y,medium,2026-03-09 14:54:39.311+00	
+PI (Admin),1,19,B,Y,X,,,X,Y,high,2026-03-09 14:55:51.679+00	
+PI (Admin),1,20,A,X,Y,,,Y,X,high,2026-03-09 14:56:35.727+00	
+PI (Admin),1,21,C,X,Y,,,X,Y,medium,2026-03-09 14:59:10.4+00	
+PI (Admin),2,1,A,Y,X,,,X,Y,medium,2026-03-09 15:15:46.638+00	
+PI (Admin),2,2,D,X,Y,,,Y,Y,low,2026-03-09 15:18:14.422+00	
+PI (Admin),2,3,A,X,Y,,,Y,X,high,2026-03-09 15:19:08.086+00	
+PI (Admin),2,4,B,Y,X,,,X,Y,high,2026-03-09 15:20:46.662+00	
+PI (Admin),2,5,C,X,Y,,"not ""causes"", but may cause",X,Y,medium,2026-03-09 15:22:28.015+00	
+PI (Admin),2,6,D,Y,X,I dont think SVET can operate in humid environments without requiring an immersion of the sample in an electrolyte,,X,Y,high,2026-03-09 15:23:43.334+00	
+PI (Admin),2,7,A,Y,X,,,X,Y,high,2026-03-09 15:25:08.671+00	
+PI (Admin),2,8,D,Y,X,,,X,Y,high,2026-03-09 17:06:26.45+00	
+PI (Admin),2,9,C,X,Y,,,Y,X,medium,2026-03-09 17:13:57.162+00	
+PI (Admin),2,10,A,X,Y,,,Y,X,high,2026-03-09 17:15:26.97+00	
+PI (Admin),2,11,A,Y,X,,The aim of platinization is to increase the surface area of the probe,X,X,medium,2026-03-09 17:19:25.458+00	
+PI (Admin),2,12,B,Y,X,,,X,Y,medium,2026-03-09 17:19:53.994+00	
+PI (Admin),2,13,D,X,Y,,"Saeedikhani et al. actually developed the LECC approach (not Bastos, Ferreira). And it was not in the early 2000s, it was rather late (in 2022)",X,X,high,2026-03-09 17:21:59.242+00	
+PI (Admin),2,14,A,X,Y,,,Tie,Tie,high,2026-03-09 17:22:47.818+00	
+PI (Admin),2,15,A,Y,X,,,Y,Y,high,2026-03-09 17:23:21.953+00	
+PI (Admin),2,16,C,X,Y,,"not sure about this ""the electrode vibrates beyond the thin diffusion layer where the potential gradient is steepest, causing the measured potential difference to become nonlinear with respect to the actual local electrochemical activity """,Y,X,medium,2026-03-09 17:27:44.873+00	
+PI (Admin),2,17,C,X,Y,,,X,X,medium,2026-03-09 17:29:19.697+00	
+PI (Admin),2,18,C,Y,X,,,X,Y,high,2026-03-09 17:29:52.554+00	
+PI (Admin),2,19,B,Y,X,,,X,Y,high,2026-03-09 17:34:33.762+00	
+PI (Admin),2,20,E,Y,X,AE does not account for acoustic emission (AE = Applicable Eletronics),,X,Y,high,2026-03-09 17:36:05.321+00	
+PI (Admin),2,21,D,X,Y,,50 micrometers would be tool large a diameter for a AE probe,Y,X,high,2026-03-09 17:39:48.905+00	
+SVET specialist II,2,1,A,Y,X,,,Y,Y,medium,2026-03-22 09:46:42.345+00	
+SVET specialist II,2,2,D,X,Y,,,X,X,medium,2026-03-22 09:50:48.147+00	
+SVET specialist II,2,3,A,X,Y,,,X,X,medium,2026-03-22 09:53:42.69+00	
+SVET specialist II,2,4,B,Y,X,Sandpaper is for grinding rather than polishing.,"between 600 to 1200 grit. If none is available should one cancel their platinization? - no, be inventive using 2500 grit or a metal file.",Tie,Tie,medium,2026-03-22 09:59:11.301+00	
+SVET specialist II,2,5,C,X,Y,,,Tie,Tie,medium,2026-03-22 10:04:34.99+00	
+SVET specialist II,2,6,D,Y,X,SVET cannot operate in humid environment. Immersing all three electrodes in an electrolyte (if only a thin layer) is required.,SDC is not a common term.,Y,Y,medium,2026-03-22 10:10:55.265+00	
+SVET specialist II,2,7,A,Y,X,,,X,X,low,2026-03-22 10:17:16.071+00	
+SVET specialist II,2,8,D,Y,X,,,X,X,medium,2026-03-22 10:18:33.566+00	
+SVET specialist II,2,9,C,X,Y,,,X,Tie,medium,2026-03-22 10:26:27.521+00	
+SVET specialist II,2,10,A,X,Y,,,X,X,medium,2026-03-22 10:28:07.608+00	
+SVET specialist II,2,11,A,Y,X,"- neither HER nor ORR are expected to take place on Pt vibrating probe	 
+- increased Pt deposit roughness is the aim of platinizaion",,Y,Y,medium,2026-03-22 10:32:04.403+00	
+SVET specialist II,2,12,B,Y,X,,,Tie,Tie,medium,2026-03-22 10:33:41.51+00	
+SVET specialist II,2,13,D,X,Y,,"- no experimental potentiodynamic polarization data is required for LECC-SVET	
+#NOM?	
+- I am not aware of Dr. Bastos and Prof. Ferreira contributing to LECC-SVET.",X,X,high,2026-03-22 10:44:17.006+00	
+SVET specialist II,2,14,A,X,Y,,The probe does not generate an AC. It measures a potential difference. ,X,X,medium,2026-03-22 10:53:32.836+00	
+SVET specialist II,2,15,A,Y,X,- Both answers miss an important point that higher electrolyte conductivity increases the measured noise.,"- The answer says that higher Îº  leads to lower SVET signal, but the equation suggests that higher Îº leads to higher i (for fixed Î”V)	
+- Both answers miss an important point that higher electrolyte conductivity increases the measured noise.",X,X,medium,2026-03-22 11:15:47.311+00	
+SVET specialist II,2,16,C,X,Y,No overestimation by orders of magnitude can be created if the probe vibrates at 30 micron amplitude. ,"- Spacial resolution is more defined by the probe height than its vibration amplitude.	
+- The thickness of diffusion layer in stagnant aqueous electrolyte is typically within 300 to 600 micron, which is well below 150-200 micron electrode height + up to 30 micron vibration amplitude. ",Y,Y,medium,2026-03-22 11:25:42.787+00	
+SVET specialist II,2,17,C,X,Y,,,Tie,Tie,medium,2026-03-22 11:26:57.086+00	
+SVET specialist II,2,18,C,Y,X,,,Tie,Tie,medium,2026-03-22 11:27:50.939+00	
+SVET specialist II,2,19,B,Y,X,"For AE SVET, the sensitivity limit is within 1 to 10 micron/cm2 for more dilute 0.05M - unwritten standard for this equipment.",,Y,Y,medium,2026-03-22 11:30:53.244+00	
+SVET specialist II,2,20,E,Y,X,"- acoustic emission (AE) is wrong. AE in this context stands for Applicable Electronics.	
+#NOM?	
+- no frequency can be detected during SVET calibration. It is being set to find the most stable vibration",,Y,Y,medium,2026-03-22 11:34:03.276+00	
+SVET specialist II,2,21,D,X,Y,,"the statement ""SVET spatial resolution is typically much finer than the physical probe tip diameter"" is wrong. SVET spatial resolution is limited primarily by probe height above the sample.",X,X,medium,2026-03-22 11:36:02.421+00	
+Local techniques specialist,1,1,C,X,Y,the answer seems repetitive - ,,Y,Y,high,2026-03-16 11:13:24.642+00	
+Local techniques specialist,1,2,B,Y,X,,the values will depend on the probe size (geometry). high conductivity solutions can increase signal-to-noise ratio. it is not so much about the voltage gradient. ,X,X,high,2026-03-16 11:15:27.424+00	
+Local techniques specialist,1,3,A,Y,X,,,Y,Y,high,2026-03-16 11:16:03.063+00	
+Local techniques specialist,1,4,A,X,Y,,,X,X,medium,2026-03-16 11:46:53.251+00	
+Local techniques specialist,1,5,C,X,Y,,,Y,Y,medium,2026-03-16 11:49:48.239+00	
+Local techniques specialist,1,6,C,X,Y,,,X,X,medium,2026-03-16 11:50:29.022+00	
+Local techniques specialist,1,7,D,Y,X,I don't agree with the mention of coated system and complex geometries. For SVET a flat (well level) surface is necessary - therefore it can be limited for complex geometries. also coated systems with insulating material (paint) cannot be studied. Only on the case of defective system where the conductive/reactive substrate is exposure. ,,Y,Y,medium,2026-03-16 11:53:28.712+00	
+Local techniques specialist,1,8,A,Y,X,,,Tie,Tie,medium,2026-03-16 11:54:23.647+00	
+Local techniques specialist,1,9,D,Y,X,I am not sure if it combines EIS,,Y,Y,low,2026-03-16 11:55:48.31+00	
+Local techniques specialist,1,10,D,X,Y,,,Y,Y,medium,2026-03-16 11:56:27.479+00	
+Local techniques specialist,1,11,A,Y,X,,,X,X,low,2026-03-16 11:57:06.879+00	
+Local techniques specialist,1,12,B,Y,X,,,Tie,Tie,low,2026-03-16 11:57:59.513+00	
+Local techniques specialist,1,13,A,X,Y,,,X,X,medium,2026-03-16 11:58:38.802+00	
+Local techniques specialist,1,14,D,Y,X,,I don't fully agree with this explanation,X,X,medium,2026-03-16 12:00:03.169+00	
+Local techniques specialist,1,15,A,Y,X,,It is not much about current sources sites on the surface. It is more about the perpendicular gradient of ionic currents,X,X,medium,2026-03-16 12:01:06.365+00	
+Local techniques specialist,1,16,C,X,Y,,,Y,Y,medium,2026-03-16 12:01:43.188+00	
+Local techniques specialist,1,17,E,Y,X,I am not aware of laser beam and photodetectors in SVET systems. This sounds more to AFM related explanation,,Y,Y,medium,2026-03-16 12:02:49.42+00	
+Local techniques specialist,1,18,D,X,Y,,,X,X,medium,2026-03-16 12:03:13.652+00	
+Local techniques specialist,1,19,B,Y,X,,,Tie,Tie,low,2026-03-16 12:03:43.936+00	
+Local techniques specialist,1,20,A,X,Y,,,Y,Y,medium,2026-03-16 12:04:12.801+00	
+Local techniques specialist,1,21,C,X,Y,,,Y,Y,medium,2026-03-16 12:04:41.594+00	
+Non-expert,1,1,C,X,Y,,,Y,Tie,medium,2026-03-27 18:05:53.277+00
+Non-expert,1,2,B,Y,X,,,Y,Tie,medium,2026-03-27 18:08:34.636+00
+Non-expert,1,3,A,Y,X,,,Y,Tie,medium,2026-03-27 18:10:38.697+00
+Non-expert,1,4,A,X,Y,,,Tie,Tie,medium,2026-03-27 18:13:06.876+00
+Non-expert,1,5,C,X,Y,,,Y,Tie,high,2026-03-27 18:14:55.632+00
+Non-expert,1,6,C,X,Y,,,X,X,medium,2026-03-27 18:17:40.259+00
+Non-expert,1,7,D,Y,X,Complex geometries will not fit SVET.,,Tie,Y,high,2026-03-27 18:21:23.273+00
+Non-expert,1,8,A,Y,X,,,Tie,Tie,high,2026-03-27 18:23:08.618+00
+Non-expert,1,9,D,Y,X,,,X,Tie,low,2026-03-27 18:26:11.421+00
+Non-expert,1,10,D,X,Y,,,Y,Tie,medium,2026-03-27 18:27:40.761+00
+Non-expert,1,11,A,Y,X,,,Y,Tie,medium,2026-03-27 18:31:22.049+00
+Non-expert,1,12,B,Y,X,,Sand paper will not clean your wire. It is not a cleaning step.,X,X,high,2026-03-27 18:33:32.778+00
+Non-expert,1,13,A,X,Y,,,X,Tie,medium,2026-03-27 18:35:35.159+00
+Non-expert,1,14,D,Y,X,,,Tie,Tie,low,2026-03-27 18:37:17.047+00
+Non-expert,1,15,A,Y,X,,,Y,Tie,medium,2026-03-27 18:38:35.491+00
+Non-expert,1,16,C,X,Y,,evaporation increases solution conductivity not resistance.,X,X,medium,2026-03-27 18:40:15.27+00
+Non-expert,1,17,E,Y,X,,,Tie,Tie,medium,2026-03-27 18:41:21.63+00
+Non-expert,1,18,D,X,Y,,,Y,Tie,high,2026-03-27 18:42:33.309+00
+Non-expert,1,19,B,Y,X,,,Tie,Tie,low,2026-03-27 18:43:58.11+00
+Non-expert,1,20,A,X,Y,,,Y,Y,medium,2026-03-27 18:44:50.754+00
+Non-expert,1,21,C,X,Y,,,X,Tie,medium,2026-03-27 18:46:29.637+00
+Non-expert,2,1,A,Y,X,,,Y,Tie,medium,2026-03-27 20:18:56.395+00
+Non-expert,2,2,D,X,Y,,,X,Tie,medium,2026-03-27 20:21:50.717+00
+Non-expert,2,3,A,X,Y,,,Y,Tie,high,2026-03-27 20:23:59.508+00
+Non-expert,2,4,B,Y,X,,,X,Tie,medium,2026-03-27 20:25:35.913+00
+Non-expert,2,5,C,X,Y,,,Y,Tie,high,2026-03-27 20:26:39.765+00
+Non-expert,2,6,D,Y,X,,,Y,Y,medium,2026-03-27 20:27:56.097+00
+Non-expert,2,7,A,Y,X,,,Tie,Tie,low,2026-03-27 20:28:51.209+00
+Non-expert,2,8,D,Y,X,,,X,X,high,2026-03-27 20:33:12.034+00
+Non-expert,2,9,C,X,Y,,,X,Tie,high,2026-03-27 20:34:02.072+00
+Non-expert,2,10,A,X,Y,,,X,Tie,high,2026-03-27 20:35:19.151+00
+Non-expert,2,11,A,Y,X,,,X,X,low,2026-03-27 20:37:13.143+00
+Non-expert,2,12,B,Y,X,,,Tie,Tie,low,2026-03-27 20:38:29.088+00
+Non-expert,2,13,D,X,Y,,,Y,Y,medium,2026-03-27 20:39:13.87+00
+Non-expert,2,14,A,X,Y,,It is not possible to quantify Ionic fluxes,Y,X,medium,2026-03-27 20:40:55.213+00
+Non-expert,2,15,A,Y,X,,,Y,Tie,high,2026-03-27 20:42:03.638+00
+Non-expert,2,16,C,X,Y,,,Y,Tie,medium,2026-03-27 20:43:33.716+00
+Non-expert,2,17,C,X,Y,,,Y,Tie,high,2026-03-27 20:44:20.916+00
+Non-expert,2,18,C,Y,X,,,X,X,medium,2026-03-27 20:45:09.056+00
+Non-expert,2,19,B,Y,X,,,Y,Y,medium,2026-03-27 20:46:09.752+00
+Non-expert,2,20,E,Y,X,,,Tie,Tie,high,2026-03-27 20:46:56.399+00
+Non-expert,2,21,D,X,Y,,,Y,Tie,medium,2026-03-27 20:48:13.908+00

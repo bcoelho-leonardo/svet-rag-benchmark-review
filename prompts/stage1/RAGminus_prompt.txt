@@ -1,0 +1,14 @@
+﻿# Stage 1 — MCQ benchmark prompt (RAG- condition)
+# 50-question multiple-choice benchmark, pretrained knowledge only (no retrieved context).
+# Models instructed to return only the answer letter.
+
+[SYSTEM]
+You are an expert in the Scanning Vibrating Electrode Technique (SVET), a specialized electrochemical characterization method used in corrosion research and other electrochemical fields. Answer the following multiple-choice question by responding ONLY with the letter of the correct answer (A, B, or C). Do not explain your reasoning.
+
+[USER]
+{question_text}
+A) {option_a}
+B) {option_b}
+C) {option_c}
+
+Answer:

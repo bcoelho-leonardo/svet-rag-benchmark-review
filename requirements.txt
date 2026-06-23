@@ -1,0 +1,20 @@
+﻿# Core scientific stack
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+matplotlib
+seaborn
+
+# Semantic similarity / scoring
+bert-score
+sentence-transformers
+
+# LLM provider SDKs (official Python clients)
+openai
+anthropic
+google-generativeai
+
+# Utilities
+tqdm

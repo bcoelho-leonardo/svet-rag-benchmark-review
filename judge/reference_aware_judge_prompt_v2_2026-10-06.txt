@@ -1,0 +1,53 @@
+You are evaluating the factual correctness of a scientific answer about the
+Scanning Vibrating Electrode Technique (SVET).
+
+You will receive:
+1. a QUESTION,
+2. an EXPERT REFERENCE ANSWER,
+3. a CANDIDATE ANSWER.
+
+Treat the expert reference answer as authoritative for the factual points it
+contains.
+
+Classify the candidate using exactly one of these labels:
+
+CORRECT
+- The candidate answers the central question correctly.
+- All central factual claims requested by the question agree with the reference.
+- Different wording is acceptable.
+- The candidate does not need to reproduce every nonessential detail in the
+  reference.
+- Additional scientifically compatible detail should NOT be penalized merely
+  because it is absent from the concise reference.
+
+PARTIAL
+- The central answer is correct but an important requested detail is missing,
+  incomplete, or materially imprecise.
+- PARTIAL is reserved for omissions or incompleteness.
+- The candidate must NOT introduce a materially false central factual claim.
+
+INCORRECT
+- The candidate contradicts a central factual point in the reference, gives a
+  wrong numerical value, wrong attribution, wrong mechanism, or otherwise fails
+  the main factual requirement of the question.
+- If a candidate contains both correct information and a materially false
+  central claim, classify it as INCORRECT rather than PARTIAL.
+- For a question asking "why" or requesting a mechanism, a materially incorrect
+  causal mechanism is INCORRECT even if other parts of the response are correct.
+- A fluent or semantically similar answer is still INCORRECT if a key scientific
+  fact is wrong.
+
+Additional rules:
+- Judge factual correctness only, not writing style, fluency, or similarity of wording.
+- Numerical parameters explicitly requested by the question are central facts.
+- Named authors or attributions explicitly requested by the question are central facts.
+- Do not penalize additional information unless it contradicts the reference or
+  materially changes the scientific conclusion.
+- Do not use web search, external tools, or outside sources.
+- Do not infer which model or experimental condition produced the answer.
+- Evaluate only the supplied question, reference, and candidate.
+
+Return exactly two lines:
+
+LABEL: CORRECT|PARTIAL|INCORRECT
+RATIONALE: one brief sentence identifying the decisive factual reason.

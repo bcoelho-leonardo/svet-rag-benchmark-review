@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-06",
+  "requested_model": "gpt-5.6-sol",
+  "returned_model": [
+    "gpt-5.6-sol"
+  ],
+  "prompt_sha256": "9c6e050241d0888bf2e33cefc2649339b6e49389cfdc3686fa74c776c37e762c",
+  "validation_n_cases": 16,
+  "validation_n_runs": 2,
+  "run_to_run_label_agreement": "16/16 (100%)",
+  "primary_endpoint": {
+    "fully_correct": [
+      "CORRECT"
+    ],
+    "not_fully_correct": [
+      "PARTIAL",
+      "INCORRECT"
+    ],
+    "abstention": "assigned programmatically, not judged by LLM"
+  },
+  "secondary_endpoint": [
+    "CORRECT",
+    "PARTIAL",
+    "INCORRECT",
+    "ABSTAIN"
+  ],
+  "rubric_revision_history": {
+    "v1_sha256": "08fe737d55ca750af658be318db6ca0a3ac611e2ea24da5a0ed7682d25d084ef",
+    "v2_sha256": "9c6e050241d0888bf2e33cefc2649339b6e49389cfdc3686fa74c776c37e762c",
+    "reason_for_single_revision": "Validation showed two responses containing correct elements plus materially erroneous mechanisms were labelled PARTIAL. Rubric v2 clarified that materially false central claims should not qualify as fully correct. No further prompt revision permitted after this freeze."
+  },
+  "notes": [
+    "Candidate responses were checked for explicit RAG-condition cues: 0/256 found.",
+    "S2-Q04 RAG+ retained as unresolved expert-disagreement stress test.",
+    "The full benchmark has not yet been judged using this frozen specification."
+  ]
+}

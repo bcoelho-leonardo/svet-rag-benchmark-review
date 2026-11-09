@@ -1,0 +1,23 @@
+# Versions recorded for the October 2026 revision analyses (Python 3.13.5).
+# The Stage 1 / Stage 2 benchmark runs (March 2026) were executed in an environment whose package
+# versions were not logged; the SDK versions below are those of the revision environment.
+openai==2.24.0
+anthropic==0.84.0
+google-genai==1.65.0
+python-dotenv==1.2.2
+pandas==2.3.2
+numpy==2.2.5
+scipy==1.16.0
+scikit-learn==1.7.1
+torch==2.10.0
+transformers==5.3.0
+huggingface-hub==1.5.0
+bert-score==0.3.13   # 0.3.12 was installed when the October outputs were produced; 0.3.13 is installed now
+# Imported by the benchmark notebooks (versions as installed in the authors' environment in November 2026):
+matplotlib==3.10.5
+seaborn==0.13.2
+sentence-transformers==5.2.3
+requests==2.32.4
+# BERTScore backbone: roberta-large, revision 722cf37b1afa9454edce342e7895e588b6ff1d59
+# OpenAI-compatible endpoints used through the openai SDK: https://api.x.ai/v1, https://api.deepseek.com,
+# https://api.groq.com/openai/v1, https://api.perplexity.ai

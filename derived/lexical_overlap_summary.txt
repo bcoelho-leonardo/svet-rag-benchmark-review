@@ -1,0 +1,78 @@
+
+## S1 | question | n=50
+  content-word containment (max over chunks): median 0.667, IQR 0.625-0.8, max 1
+  word-trigram containment (max over chunks): median 0.1, IQR 0-0.111, max 0.375
+  longest exact word run (words): median 3, IQR 2-3, max 6 ; as fraction of item: median 0.25, IQR 0.214-0.273, max 0.5
+  items with trigram containment >=0.5: 0; >=0.8: 0; longest run >=8 words: 0; >=15 words: 0
+  class of best trigram match chunk: {'PI': 40, 'manufacturer': 7, 'abstracts': 3}
+  source of best trigram match: {'Common Questions and Expert Answers on SVET Corrosion Research.txt': 22, 'Guide for AE.txt': 9, 'Formation.txt': 7, 'Manual.txt': 6, 'refs_abstracts_links.txt': 3, 'Community.txt': 2, 'User Guide.txt': 1}
+  best trigram match PI-class > third-party: 19; third-party > PI: 7; equal: 24
+  NULL (shuffled word order, 10 reps/item): trigram containment median 0, 95th pct 0.0909, max 0.222; longest run median 2.0, 95th pct 3, max 4
+
+## S1 | question+correct option | n=50
+  content-word containment (max over chunks): median 0.639, IQR 0.583-0.75, max 0.9
+  word-trigram containment (max over chunks): median 0.077, IQR 0.062-0.125, max 0.357
+  longest exact word run (words): median 3, IQR 3-3, max 7 ; as fraction of item: median 0.188, IQR 0.158-0.231, max 0.35
+  items with trigram containment >=0.5: 0; >=0.8: 0; longest run >=8 words: 0; >=15 words: 0
+  class of best trigram match chunk: {'abstracts': 4, 'PI': 42, 'manufacturer': 4}
+  source of best trigram match: {'Common Questions and Expert Answers on SVET Corrosion Research.txt': 19, 'Formation.txt': 13, 'Guide for AE.txt': 6, 'refs_abstracts_links.txt': 4, 'Manual.txt': 4, 'Community.txt': 3, 'SVET Knowledge Base.txt': 1}
+  best trigram match PI-class > third-party: 29; third-party > PI: 7; equal: 14
+  NULL (shuffled word order, 10 reps/item): trigram containment median 0, 95th pct 0.0714, max 0.167; longest run median 2.0, 95th pct 3, max 4
+
+## S2 | question | n=28
+  content-word containment (max over chunks): median 0.667, IQR 0.583-0.8, max 0.9
+  word-trigram containment (max over chunks): median 0.071, IQR 0.062-0.111, max 0.25
+  longest exact word run (words): median 3, IQR 3-3, max 5 ; as fraction of item: median 0.2, IQR 0.176-0.25, max 0.333
+  items with trigram containment >=0.5: 0; >=0.8: 0; longest run >=8 words: 0; >=15 words: 0
+  class of best trigram match chunk: {'PI': 23, 'abstracts': 2, 'manufacturer': 3}
+  source of best trigram match: {'Guide for AE.txt': 8, 'Common Questions and Expert Answers on SVET Corrosion Research.txt': 8, 'Formation.txt': 4, 'Manual.txt': 3, 'refs_abstracts_links.txt': 2, 'SVET Knowledge Base.txt': 2, 'Community.txt': 1}
+  best trigram match PI-class > third-party: 14; third-party > PI: 4; equal: 10
+  NULL (shuffled word order, 10 reps/item): trigram containment median 0, 95th pct 0.0833, max 0.2; longest run median 2.0, 95th pct 3, max 4
+
+## S2 | reference (original) | n=28
+  content-word containment (max over chunks): median 0.526, IQR 0.452-0.583, max 0.76
+  word-trigram containment (max over chunks): median 0.07, IQR 0.047-0.133, max 0.244
+  longest exact word run (words): median 4, IQR 3-6, max 10 ; as fraction of item: median 0.1, IQR 0.091-0.143, max 0.19
+  items with trigram containment >=0.5: 0; >=0.8: 0; longest run >=8 words: 3; >=15 words: 0
+  class of best trigram match chunk: {'PI': 25, 'abstracts': 2, 'manufacturer': 1}
+  source of best trigram match: {'Guide for AE.txt': 12, 'SVET Knowledge Base.txt': 5, 'Formation.txt': 3, 'Community.txt': 3, 'refs_abstracts_links.txt': 2, 'Common Questions and Expert Answers on SVET Corrosion Research.txt': 2, 'Manual.txt': 1}
+  best trigram match PI-class > third-party: 21; third-party > PI: 3; equal: 4
+  NULL (shuffled word order, 10 reps/item): trigram containment median 0, 95th pct 0.027, max 0.0385; longest run median 2.0, 95th pct 3, max 4
+
+## Top Stage 2 references by longest exact run
+  Q10 lcr=10 (0.185) cont3=0.176 KB-015 Formation.txt [PI]
+  Q07 lcr=9 (0.18) cont3=0.167 KB-018 Guide for AE.txt [PI]
+  Q21 lcr=8 (0.19) cont3=0.2 KB-101 SVET Knowledge Base.txt [PI]
+  Q06 lcr=7 (0.159) cont3=0.244 KB-019 Guide for AE.txt [PI]
+  Q23 lcr=7 (0.149) cont3=0.133 KB-019 Guide for AE.txt [PI]
+  Q03 lcr=7 (0.171) cont3=0.128 KB-101 SVET Knowledge Base.txt [PI]
+  Q24 lcr=6 (0.143) cont3=0.175 KB-108 SVET Knowledge Base.txt [PI]
+  Q08 lcr=6 (0.111) cont3=0.173 KB-002 Common Questions and Expert An [PI]
+
+## Top Stage 1 question+option by trigram containment
+  Q06 cont3=0.357 lcr=5 KB-044 Manual.txt [manufacturer] | Which electrode is connected to the negative terminal during platiniza
+  Q13 cont3=0.308 lcr=5 KB-001 Common Questions and Expert An [PI] | What does increasing the averaging time in ASET-LV4 primarily improve?
+  Q33 cont3=0.278 lcr=7 KB-015 Formation.txt [PI] | Which gas is recommended for probe vibration calibration and cleaning 
+  Q24 cont3=0.25 lcr=4 KB-001 Common Questions and Expert An [PI] | What is the direction of SVET probe vibration relative to the sample s
+  Q21 cont3=0.222 lcr=4 KB-015 Formation.txt [PI] | What is the main function of the Ag/AgCl wire inside the glass electro
+  Q10 cont3=0.211 lcr=6 KB-015 Formation.txt [PI] | During SVET calibration, applying –60 nA to the glass electrode should
+  Q30 cont3=0.188 lcr=5 KB-015 Formation.txt [PI] | Which parameter must be updated in ASET software if the electrolyte co
+  Q38 cont3=0.167 lcr=3 KB-101 SVET Knowledge Base.txt [PI] | Which SVET component is responsible for demodulation of the AC signal?
+
+## Top Stage 2 references by trigram containment
+  Q06 cont3=0.244 lcr=7 KB-019 Guide for AE.txt [PI]
+  Q21 cont3=0.2 lcr=8 KB-101 SVET Knowledge Base.txt [PI]
+  Q10 cont3=0.176 lcr=10 KB-015 Formation.txt [PI]
+  Q24 cont3=0.175 lcr=6 KB-108 SVET Knowledge Base.txt [PI]
+  Q08 cont3=0.173 lcr=6 KB-002 Common Questions and Expert An [PI]
+  Q07 cont3=0.167 lcr=9 KB-018 Guide for AE.txt [PI]
+  Q12 cont3=0.156 lcr=5 KB-019 Guide for AE.txt [PI]
+  Q23 cont3=0.133 lcr=7 KB-019 Guide for AE.txt [PI]
+
+## Audited vs original reference (6 clarified items): trigram containment / longest run
+  Q01: orig 0.034/3  audited 0.038/3
+  Q03: orig 0.128/7  audited 0.107/3
+  Q05: orig 0.071/4  audited 0.143/4
+  Q15: orig 0.069/4  audited 0.077/3
+  Q20: orig 0.073/4  audited 0.133/4
+  Q21: orig 0.2/8  audited 0.125/4
